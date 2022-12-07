@@ -1,0 +1,50 @@
+@import "Main.css";
+
+button {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+button_tekst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px 15px ghostwhite;
+    transition: all 5s;
+}
+.button:hover{
+    background-color: crimson;
+}
+
+#social-buttons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#social-buttons a img {
+    height: 40px;
+}
+
+#social-buttons a:hover img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}

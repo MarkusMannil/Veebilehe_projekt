@@ -1,6 +1,5 @@
 @import "Main.css";
 
-
 body {
     background-color: rgb(35, 32, 51);
     background-image: url("/assets/background.png");
@@ -20,6 +19,7 @@ button {
     transition: all 5s, background-color 2s;
     cursor: pointer;
     margin: 5px;
+
 }
 
 .product-box {
